@@ -1,0 +1,19 @@
+// imports
+@import './vars';
+@import './reset';
+@import './mixins';
+@import './fontawesome/fontawesome';
+@import './fontawesome/solid.scss';
+@import './fontawesome/brands.scss';
+
+@import './../../../node_modules/bootstrap/scss/bootstrap';
+
+body {
+    background: white;
+}
+
+i {
+    font-size: 15px;
+    color: #000;
+    display: block;
+}
